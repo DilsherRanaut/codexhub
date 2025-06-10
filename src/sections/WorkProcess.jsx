@@ -1,12 +1,12 @@
 import workProcessImg from "../assets/images/workprocess.png";
 import ProcessCard from "../components/ProcessCard";
-// import processicon1 from "../assets/icons/processicon1.png";
-// import processicon2 from "../assets/icons/processicon2.png";
-// import processicon3 from "../assets/icons/processicon3.png";
+import processicon1 from "../assets/icons/process-icon1.png";
+import processicon2 from "../assets/icons/process-icon2.png";
+import processicon3 from "../assets/icons/process-icon3.png";
 
 let processcards = [
   {
-    icon: "processicon1",
+    icon: processicon1,
     title: "Strategy Development",
     content:
       "Based on our findings, we develop customized digital marketing strategy tailored objective.",
@@ -14,7 +14,7 @@ let processcards = [
     linkUrl: "#",
   },
   {
-    icon: "processicon2",
+    icon: processicon2,
     title: "Monitoring & Optimization",
     content:
       "We believe in the power of data-driven decision-making. Throughout the campaign,.",
@@ -22,7 +22,7 @@ let processcards = [
     linkUrl: "#",
   },
   {
-    icon: "processicon3",
+    icon: processicon3,
     title: "Continuous Improvement",
     content:
       "Digital marketing is an ever-evolving field, and we're committed to staying ahead of the CodeX Hub curve.",

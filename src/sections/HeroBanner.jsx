@@ -8,7 +8,7 @@ export default function HeroBanner() {
   return (
     <section>
       <div className="hero-banner">
-        <div className="hero-banner-outer">
+        <div className="hero-banner-outer px-8">
             <img className="circle-element up-down" src={element1} alt="" />
           <div className="container">
             <div className="hero-banner-inner row">

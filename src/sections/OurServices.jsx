@@ -9,7 +9,7 @@ export default function OurServices() {
   return (
     <section>
       <div className="our-services">
-        <div className="our-services-outer">
+        <div className="our-services-outer px-8">
           <div className="container">
             <div className="our-services-inner ">
             <div className="backround-cirlce">
@@ -17,7 +17,7 @@ export default function OurServices() {
             </div>
 
             <div className="our-services-content align-center">
-                  <h5 className="our-services-subheading subheading">Our Services</h5>
+                  <h5 className="our-services-subheading subheading mx-auto">Our Services</h5>
                 <h2 className="our-services-heading">
                   Our Comprehensive Suite Of <br/>Digital Marketing <span className="highlighted-text"> Services.</span> 
                 </h2>                
@@ -36,7 +36,7 @@ export default function OurServices() {
                       </div>
                     </div>
                     <div className="content-area">
-                      <h4 className="our-service-title">
+                      <h4 className="our-service-title pt-2">
                         Search Engine Optimization
                       </h4>
                       <p className="our-service-description">
@@ -62,7 +62,7 @@ export default function OurServices() {
                       </div>
                     </div>
                     <div className="content-area">
-                      <h4 className="our-service-title">
+                      <h4 className="our-service-title pt-2">
                         Search Engine Optimization
                       </h4>
                       <p className="our-service-description">
@@ -78,7 +78,7 @@ export default function OurServices() {
                 </div>
               </div>
 
-              <div className="our-services-cards row pt-10">
+              <div className="our-services-cards row pt-6">
                 <div className="col-5"></div>
                 <div className="col-2 align-center">
                   <img src={logo} alt="" />
@@ -86,7 +86,7 @@ export default function OurServices() {
                 <div className="col-5"></div>
               </div>
 
-              <div className="our-services-cards row pt-10">
+              <div className="our-services-cards row pt-6">
                 <div className="col-5">
                   <div className="service-card">
                     <div className="icons-area row space-between">
@@ -98,7 +98,7 @@ export default function OurServices() {
                       </div>
                     </div>
                     <div className="content-area">
-                      <h4 className="our-service-title">
+                      <h4 className="our-service-title pt-2">
                         Search Engine Optimization
                       </h4>
                       <p className="our-service-description">
@@ -124,7 +124,7 @@ export default function OurServices() {
                       </div>
                     </div>
                     <div className="content-area">
-                      <h4 className="our-service-title">
+                      <h4 className="our-service-title pt-2">
                         Search Engine Optimization
                       </h4>
                       <p className="our-service-description">

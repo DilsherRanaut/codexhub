@@ -4,6 +4,7 @@ import HeroBanner from '../sections/HeroBanner'
 import About from '../sections/About'
 import OurServices from '../sections/OurServices'
 import WorkProcess from '../sections/WorkProcess'
+import Pricing from '../sections/Pricing'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About/>
       <OurServices/>
       <WorkProcess/>
+      <Pricing/>
     </div>
   )
 }

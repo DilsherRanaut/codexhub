@@ -7,7 +7,7 @@ import serviceIcon4 from "../assets/icons/service-icon4.png";
 
 export default function OurServices() {
   return (
-    <section>
+    <section id="services">
       <div className="our-services">
         <div className="our-services-outer px-8">
           <div className="container">

@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../sections/Header'
 import HeroBanner from '../sections/HeroBanner'
 import About from '../sections/About'
@@ -7,6 +6,7 @@ import WorkProcess from '../sections/WorkProcess'
 import Pricing from '../sections/Pricing'
 import Testimonials from '../sections/Testimonials'
 import OurBlogs from '../sections/OurBlogs'
+import Footer from '../sections/Footer'
 
 export default function Home() {
   return (
@@ -15,10 +15,11 @@ export default function Home() {
       <HeroBanner/>
       <About/>
       <OurServices/>
-      <WorkProcess/>
+      <WorkProcess/> 
       <Pricing/>
       <Testimonials/>
       <OurBlogs/>
+      <Footer/>
     </div>
   )
 }

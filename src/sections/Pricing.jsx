@@ -3,7 +3,7 @@ import PriceCard from "../components/PriceCard";
 
 export default function Pricing() {
   return (
-    <section>
+    <section id="pricing">
       <div className="pricing">
         <div className="pricing-outer px-8">
           <div className="container">

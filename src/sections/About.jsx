@@ -7,7 +7,7 @@ import arrowIcon from "../assets/icons/arrow-icon.png";
 
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <div className="about">
         <div className="about-outer">
           <div className="container">

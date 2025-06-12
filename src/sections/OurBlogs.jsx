@@ -6,7 +6,7 @@ import blogImg4 from "../assets/images/blog4.jpg";
 
 export default function OurBlogs() {
   return (
-    <section>
+    <section id="blogs">
       <div className="our-blogs">
         <div className="our-blogs-outer px-8">
           <div className="container">

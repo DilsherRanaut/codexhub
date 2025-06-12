@@ -33,7 +33,7 @@ let processcards = [
 
 export default function WorkProcess() {
   return (
-    <section>
+    <section id="work-process">
       <div className="work-process">
         <div className="work-process-outer px-8">
           <div className="container">

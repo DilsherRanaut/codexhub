@@ -53,7 +53,7 @@ export default function Testimonials() {
     autoplaySpeed: 3500,
   };
   return (
-    <section>
+    <section id="testimonials">
       <div className="testimonials">
         <div className="testimonials-outer px-8">
           <div className="container">

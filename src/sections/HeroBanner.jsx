@@ -6,7 +6,7 @@ import lightIcon from "../assets/icons/light-icon.png";
 
 export default function HeroBanner() {
   return (
-    <section>
+    <section id="hero">
       <div className="hero-banner">
         <div className="hero-banner-outer px-8">
             <img className="circle-element up-down" src={element1} alt="" />

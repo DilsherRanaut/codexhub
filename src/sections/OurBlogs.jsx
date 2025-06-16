@@ -50,8 +50,11 @@ export default function OurBlogs() {
                       <img src={blogImg2} alt="" />
                     </div>
                     <div className="our-blogs-list-item-content col-9">
-                      <div className="our-blogs-list-item-meta">
-                        admin November 13, 2024
+                      <div className="our-blogs-list-item-meta row gap-2">
+                        <div className="our-blogs-list-item-meta-author">Admin</div>
+                        <div className="our-blogs-list-item-meta-date">
+                          November 13, 2024
+                        </div>
                       </div>
                       <div className="our-blogs-list-item-title pt-1">
                         <h4>The Future of Business: Trends to Watch in 2025</h4>
@@ -67,8 +70,11 @@ export default function OurBlogs() {
                       <img src={blogImg3} alt="" />
                     </div>
                     <div className="our-blogs-list-item-content col-9">
-                      <div className="our-blogs-list-item-meta">
-                        admin November 13, 2024
+                      <div className="our-blogs-list-item-meta row gap-2">
+                        <div className="our-blogs-list-item-meta-author">Admin</div>
+                        <div className="our-blogs-list-item-meta-date">
+                          November 13, 2024
+                        </div>
                       </div>
                       <div className="our-blogs-list-item-title pt-1">
                         <h4>The Future of Business: Trends to Watch in 2025</h4>
@@ -83,8 +89,11 @@ export default function OurBlogs() {
                       <img src={blogImg4} alt="" />
                     </div>
                     <div className="our-blogs-list-item-content col-9">
-                      <div className="our-blogs-list-item-meta">
-                        admin November 13, 2024
+                      <div className="our-blogs-list-item-meta row gap-2">
+                        <div className="our-blogs-list-item-meta-author">Admin</div>
+                        <div className="our-blogs-list-item-meta-date">
+                          November 13, 2024
+                        </div>
                       </div>
                       <div className="our-blogs-list-item-title pt-1">
                         <h4>The Future of Business: Trends to Watch in 2025</h4>

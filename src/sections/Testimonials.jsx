@@ -51,6 +51,26 @@ export default function Testimonials() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3500,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   };
   return (
     <section id="testimonials">

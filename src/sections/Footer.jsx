@@ -17,7 +17,7 @@ export default function Footer() {
             <div className="footer-inner">
               <div className="footer-content row gap-6">
                 {/* site details  */}
-                <div className="col-3">
+                <div className="footer-col col-3">
                   <div className="site-logo text-left">
                     <a href="/"><img src={logo}></img></a>
                   </div>
@@ -39,7 +39,7 @@ export default function Footer() {
                   </div>
                 </div>
                 {/* about menus */}
-                <div className="col-2">
+                <div className="footer-col col-2">
                     <h4 className="footer-heading">Quick Links</h4>
                     <a className="footer-menu-item-link" href="#about"><li className="footer-menu-item">About Us</li></a>
                     <a className="footer-menu-item-link" href="#services"><li className="footer-menu-item">Services</li></a>
@@ -49,7 +49,7 @@ export default function Footer() {
                     <a className="footer-menu-item-link" href="#blogs"><li className="footer-menu-item">Blogs</li></a>
                 </div>
                 {/* get in touch */}
-                <div className="col-3">
+                <div className="footer-col col-3">
                     <h4 className="footer-heading">Get in touch</h4>
                     <div className="footer-contect-item row gap-1">
                         <div className="contect-icon col-1"><img src={mailIcon} alt="Mail" /></div>
@@ -65,7 +65,7 @@ export default function Footer() {
                     </div>
                 </div>
                 {/* newsletter */}
-                <div className="col-4">
+                <div className="footer-col col-4">
                     <h4 className="footer-heading">Subscribe Our Newsletter</h4>
                     <div className="footer-newsletter">
                         <form action="" className="newsletter-form">

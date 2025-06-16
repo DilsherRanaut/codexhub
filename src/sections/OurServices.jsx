@@ -24,9 +24,9 @@ export default function OurServices() {
             </div>
 
 
-              <div className="our-services-cards row pt-6">
-                <div className="col-5">
-                  <div className="service-card">
+              <div className="our-services-cards row pt-4">
+                <div className="col-5 service-card">
+                  <div className="service-card-inner">
                     <div className="icons-area row space-between">
                       <div className="col-3 align-center service-icon">
                         <img src={serviceIcon1} alt="serviceIcon1" />
@@ -51,8 +51,8 @@ export default function OurServices() {
                   </div>
                 </div>
                 <div className="col-2"></div>
-                <div className="col-5">
-                  <div className="service-card">
+                <div className="col-5 service-card">
+                  <div className="service-card-inner">
                     <div className="icons-area row space-between">
                       <div className="col-3 align-center service-icon">
                         <img src={serviceIcon2} alt="serviceIcon2" />
@@ -80,15 +80,15 @@ export default function OurServices() {
 
               <div className="our-services-cards row pt-6">
                 <div className="col-5"></div>
-                <div className="col-2 align-center">
+                <div className="col-2 align-center service-logo">
                   <img src={logo} alt="" />
                 </div>
                 <div className="col-5"></div>
               </div>
 
               <div className="our-services-cards row pt-6">
-                <div className="col-5">
-                  <div className="service-card">
+                <div className="col-5 service-card">
+                  <div className="service-card-inner">
                     <div className="icons-area row space-between">
                       <div className="col-3 align-center service-icon">
                         <img src={serviceIcon3} alt="serviceIcon3" />
@@ -113,8 +113,8 @@ export default function OurServices() {
                   </div>
                 </div>
                 <div className="col-2"></div>
-                <div className="col-5">
-                  <div className="service-card">
+                <div className="col-5 service-card">
+                  <div className="service-card-inner">
                     <div className="icons-area row space-between">
                       <div className="col-3 align-center service-icon">
                         <img src={serviceIcon4} alt="serviceIcon4" />

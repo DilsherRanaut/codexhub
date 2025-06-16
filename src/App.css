@@ -457,7 +457,7 @@ a {
 
 .hero-banner-outer {
     background-image: url(./assets/images/hero-bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -658,7 +658,7 @@ img.aboutImg2 {
 
 .work-process-outer {
     background: url(./assets/images/hero-bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -912,7 +912,7 @@ h4.testimonial-card-name {
 .footer-outer {
     background: url(./assets/images/footer-bg.png);
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
@@ -1328,6 +1328,9 @@ p {
 .service-card, .service-logo {
     width: 100%;
 }
+.service-number {
+    font-size: 12vw;
+}
 
 .work-process-inner-top {
     display: flex;
@@ -1343,6 +1346,10 @@ p {
 .process-card {
     width: 100%;
 }
+.process-card-icon {
+    width: 70px;
+    height: 70px;
+}
 .pricing-cards{
     display: flex;
     flex-wrap: wrap;
@@ -1357,11 +1364,27 @@ p {
 .our-blogs-main-post, .our-blogs-lists {
     width: 100%;
 }
+h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 30px;
+    line-height: 1.4;
+}
+.our-blogs-main-content {
+    padding: 40px 15px 0px;
+}
+.our-blogs-list-item-meta{
+    font-size: .8rem;
+}
 .footer-content {
     display: flex;
     flex-wrap: wrap;
 }
 .footer-col {
     width: 100%;
+}
+.copyright-text {
+    margin: 0;
+    font-size: 0.75rem;
 }
 }

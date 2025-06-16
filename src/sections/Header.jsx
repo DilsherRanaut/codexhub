@@ -45,7 +45,7 @@ export default function Header() {
                     <a href="#pricing" onClick={() => setMenuOpen(false)}><li>Pricing</li></a>
                     <a href="#testimonials" onClick={() => setMenuOpen(false)}><li>Testimonials</li></a>
                     <a href="#blogs" onClick={() => setMenuOpen(false)}><li>Blogs</li></a>
-                    <a href="#blogs" onClick={() => setMenuOpen(false)} className="primary-btn"><li>Free Consultation</li></a>
+                    <a href="tel:+91 6284-371962" onClick={() => setMenuOpen(false)} className="primary-btn"><li>Free Consultation</li></a>
                   </ul>
                 </div>
 

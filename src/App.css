@@ -1325,7 +1325,7 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-.service-card, .service-card {
+.service-card, .service-logo {
     width: 100%;
 }
 
